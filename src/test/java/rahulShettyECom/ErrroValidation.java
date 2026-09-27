@@ -32,7 +32,7 @@ public class ErrroValidation extends BaseTest {
 
 		boolean nameofItem = MyCart.CardItom("ZARA COAT 322");
 		Assert.assertFalse(nameofItem);
-
+        System.out.println(name);
 	}
 
 }
